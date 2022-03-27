@@ -1,0 +1,5 @@
+{% for app in app_list %}
+    <ul style="list-style: none;">
+        <li><a href="/{{ app.slug }}">{{ app.name }}</a></li>
+    </ul>
+{% endfor %}
